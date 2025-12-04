@@ -1,16 +1,39 @@
-# family-hub
+# family-hub ReadMe
 Digital hub for your family
 
-Could this be a product? How to bring together families with content and communication tools. Think of a private facebook or instagram or whatsApp or YouTube where you own the content and decide how it can be access outside the family. 
+See the wiki for documentation and detail. 
 
-## Features
-* Share albuns, videos, dates
-* Communication tools - video conferencing, whatsapp
-* Sharing clips and personal updates
+## TODO
+At some point we'll use github projects, but for now we can keep it here.
 
-## Personas
-Dad will be 90 years old soon. He has a sell phone but doesn't really use it. He likes to clip newspaper articles and give to his 4 kids. He documented our lives until recently and has a lot of slides, picture and video. He was converting everything to DVDs and sending copies to us. We can call our landline or talk to him via WhatsApp video, but only with my stepmon's mobile. 
+* How would it work on a TV and mobile phone
+* How to connect to different sources
+* Source categories: photos, videos, clippings, etc
 
-Stepmon is nearly 20 years younger and somewhat tech savvy. She takes care of Dad's life. His health and updates from us. 
+## Tech stack
+Currently using static site generator jekyll 
 
-My sister is an independent women that loves her cat. She uses instagram, facebook and WhatsApp but doesn't really post anything. She keeps track of all family birthday and other special dates. 
+## Running locally
+
+1. **Install dependencies:**
+   ```bash
+   bundle install
+   ```
+
+2. **Build and serve the site:**
+   ```bash
+   bundle exec jekyll serve
+   ```
+
+3. **View the site:**
+   Open your browser and navigate to `http://localhost:4000`
+
+The site will automatically rebuild when you make changes to files in the `docs/` directory.
+
+**Prerequisites:**
+- Ruby and Bundler installed on your system
+- For this dev container, you may need to install Ruby first:
+  ```bash
+  apt update && apt install -y ruby-full build-essential
+  gem install bundler jekyll
+  ```

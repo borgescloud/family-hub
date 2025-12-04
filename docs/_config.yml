@@ -1,3 +1,5 @@
 theme: minima
-title: My Project Site
-description: Documentation and notes
+title: Family Digital Hub
+description: A private family space for photos, videos, links, and calls
+source: /workspaces/family-hub/docs
+destination: /workspaces/family-hub/_site
