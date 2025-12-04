@@ -6,6 +6,7 @@ See the wiki for documentation and detail.
 ## TODO
 At some point we'll use github projects, but for now we can keep it here.
 
+* Profile page for family members with number, email, facebook, instagram and other handles
 * How would it work on a TV and mobile phone
 * How to connect to different sources
 * Source categories: photos, videos, clippings, etc
